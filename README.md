@@ -24,3 +24,5 @@ Generally speaking, exact community detection is **impossible** (NP-Hard). There
 This repo contains a pixi environment (written on Mac, sorry) and two scripts `time_comm_det.py` which simulates data and does some community detection using two methods, Louvain and Greedy Modularity, while timing them. Greedy Modularity is MUCH slower at the scale we care about. 
 
 The other script `detect_feature_communities.py` is a very simple script to use Louvain clustering to cluster the features. 
+
+They both can be run by installing the pixi environment (`pixi install`) and then calling `pixi run 'python3 <script_name>`
