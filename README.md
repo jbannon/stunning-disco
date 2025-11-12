@@ -14,7 +14,7 @@ As an example, consider a graph where the nodes are members of the BHKLab and ed
 
 
 
-Generally speaking, exact community detection is **impossible** (NP-Hard). There are, however, many many heuristic algorithms that can work. This repository looks at three such algorithms:
+Generally speaking, exact community detection is **impossible** (NP-Hard). There are, however, many many heuristic algorithms that can work. This repository only looks at two and recommends only using one of them - the Louvain method. 
 
 	
 
@@ -25,4 +25,4 @@ This repo contains a pixi environment (written on Mac, sorry) and two scripts `t
 
 The other script `detect_feature_communities.py` is a very simple script to use Louvain clustering to cluster the features. 
 
-They both can be run by installing the pixi environment (`pixi install`) and then calling `pixi run 'python3 <script_name>`
+They both can be run by installing the pixi environment (`pixi install`) and then calling `pixi run 'python3 <script_name>'`

@@ -65,7 +65,7 @@ else:
 	A =  kneighbors_graph(X, num_nbrs, mode=mode, include_self=False).toarray()
 
 	
-# now we turn that adjaceny matrix into a numpy graph
+# now we turn that adjaceny matrix into a networkx graph object
 G = nx.from_numpy_array(A)
 
 
